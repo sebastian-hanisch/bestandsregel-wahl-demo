@@ -1,7 +1,6 @@
 # Welche Bestandsregel bei welchem Zustand? Regimekarte – Streamlit-Demo
 
-<!-- Nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-bestandsregel-wahl-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-bestandsregel-wahl-demo.streamlit.app/)**
 
 Siebtes Stück der Linie **Bestandspolitiken** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, der **Zusammenfluss** der Stücke 1 bis 6: `bestell-rueckwaerts-demo` (Rückwärtsrechnung, Base-Stock), `bestellschwelle-demo` (Fixkosten, (s,S)), `lieferzeit-position-demo` (Lieferzeit, Bestandsposition), `verderbliche-ware-demo` (Alter als Zustand), `lager-und-haendler-demo` (zwei Stufen in Reihe) und `dp-grenze-demo` (Rechengrenze, gelernte Politik). Stück 1 rechnet die exakte Rückwärtsrechnung, die Stücke 2 bis 6 haben je eine Schwäche einfacher Bestellregeln vermessen; diese Demo stellt alle Lücken auf **eine Skala** und beantwortet, **welche einfache Regel in welchem Fall reicht**. Ein Artikel, eine Entscheidung je Periode („wie viel bestellen“), Poisson-Nachfrage mit Mittel 3, h = 1, p = 9 je fehlendem Stück, Bestellkosten je Stück 0, Fixkosten K je Bestellung in Einheiten von h. Die Kante zu den Vorgängern ist ein `fix` mit eigener Rechnung: die Kreuzzellen (Fixkosten **und** Lieferzeit bei verlorener Nachfrage) stehen in keinem der Stücke 1 bis 6.
 
